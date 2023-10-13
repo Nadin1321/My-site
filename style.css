@@ -7,7 +7,7 @@
 }
 
 img {
-    max-width: 800px;
+    max-width: 600px;
     border-radius: 50% 
    
 }
@@ -23,7 +23,7 @@ img {
 }
 
 .container {
-    max-width: 2400px;
+    max-width: 1600px;
     margin: auto;
 }
 
@@ -34,7 +34,7 @@ img {
     display: inline-block;
     justify-content: center;
     color: var(--text-color);
-    font-size: 45px;
+    font-size: 25px;
     text-decoration: none;
     transition: background-color 0.5s;
     border: 2px solid rgb(255, 252, 252);
@@ -67,8 +67,8 @@ img {
 .nav a {
     text-decoration: none;
     color: var(--text-color);
-    font-size: 45px;
-    padding: 50px;
+    font-size: 25px;
+    padding: 30px;
     font-weight: bold;
 }
 
@@ -86,22 +86,22 @@ img {
 }
 
 .welcome-section h1 {
-    font-size: 200px;
+    font-size: 80px;
     color: var(--text-color);
 }
 
 .welcome-section p {
-    font-size: 100px;
-    color: var(--accent-color);
+    font-size: 60px;
+       color: var(--accent-color);
 }
 
 .project-section {
     background-color: var(--background-color);
-    padding: 100px 20px;
+    padding: 80px 20px;
 }
 
 h2 {
-    font-size: 100px;
+    font-size: 30px;
     color: var(--text-color);
     text-align: center;
     text-decoration: underline;
@@ -110,7 +110,7 @@ h2 {
 
 .project-list {
     display: grid;
-    gap: 20px;
+    gap: 10px;
 }
 
 .project-list article {
@@ -118,18 +118,18 @@ h2 {
 }
 
 .project-list .title-container {
-    padding: 10px 20px;
-    border: 7px solid #f8fafd; 
+    padding: 5px 10px;
+    border: 2px solid #f8fafd; 
     display: flex;
     align-items: center;
     justify-content: center;
     background-color: var(--background-color-alternate);
-    min-height: 80px;
+    min-height: 60px;
 }
 
 .project-list article h3 {
     color: var(--text-color);
-    font-size: 50px;
+    font-size: 20px;
 }
 
 @media (min-width: 800px) {
@@ -161,7 +161,7 @@ h2 {
 
 .contact-socials {
     display: flex;
-    gap: 20px;
+    gap: 10px;
     justify-content: center;
     flex-wrap: wrap;
 }
@@ -169,7 +169,7 @@ h2 {
 .contact-socials a {
     display: flex;
     align-items: center;
-    font-size: 45px;
+    font-size: 25px;
     color: var(--text-color);
     text-decoration: none;
 }
@@ -180,7 +180,7 @@ h2 {
 }
 
 .contact p {
-    font-size: 45px;
+    font-size: 25px;
     color: var(--text-color);
     text-align: center;
 }
